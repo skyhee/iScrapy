@@ -203,7 +203,7 @@ def parse_text(extract_texts, rule_name, attr_name):
     return '\n'.join(extract_texts).strip() if extract_texts else ""
 
 
-pat4 = re.compile(ur'\d{4}年\d{2}月\d{2}日')
+# pat4 = re.compile(ur"\d{4}年\d{2}月\d{2}日")
 
 
 def osc_publish_time(extract_texts):

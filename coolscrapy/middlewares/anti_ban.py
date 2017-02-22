@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
-"""
-Topic: URL去重复中间件
-Desc : 
-"""
-import redis
+
 import random
 import logging
 from scrapy import signals

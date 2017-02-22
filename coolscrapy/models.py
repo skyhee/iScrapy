@@ -60,18 +60,6 @@ class ArticleRule(Base):
     enable = Column(Integer)
 
 
-class Article(Base):
-    """文章类"""
-    __tablename__ = 'articles'
-
-    id = Column(Integer, primary_key=True)
-    url = Column(String(100))
-    title = Column(String(100))
-    body = Column(Text)
-    publish_time = Column(String(30))
-    source_site = Column(String(30))
-
-
 class News(Base):
     """定义新闻实体"""
     __tablename__ = "wqy_push_essay"
