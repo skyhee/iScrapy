@@ -59,4 +59,6 @@
 - [scrapy 架构概览](http://scrapy-chs.readthedocs.io/zh_CN/0.24/topics/architecture.html)
 - [scrapy 默认配置](https://github.com/scrapy/scrapy/blob/master/scrapy/settings/default_settings.py)
 - [scrapy 执行总流程](./imgs/full-flow.jpg)——原文在[这](http://blog.csdn.net/happyanger6/article/details/53401912)
+- [scrapy 内置spider](./built-in-spider.md)
+- [scrapy 内置 Request 和 Response](./built-in-Request-Response.md)
 
