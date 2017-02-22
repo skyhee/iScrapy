@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+
 from scrapy.contrib.spiders import SitemapSpider
 
 class SiteSpider(SitemapSpider):
