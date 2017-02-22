@@ -11,8 +11,8 @@ from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 
 
-class LinkSpider(CrawlSpider):
-    name = "link"
+class CrawlSpider(CrawlSpider):
+    name = "crawl"
     allowed_domains = ["huxiu.com"]
     start_urls = [
         "http://www.huxiu.com/index.php"
